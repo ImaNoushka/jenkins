@@ -12,6 +12,6 @@ public class HelloWorld implements SparkApplication {
 	
 	
 		get("/hello", (req, res) -> "Hello World this git");
-		get("/", (req, res) -> "racine");
+		get("/", (req, res) -> "racine modif");
 	}
 }
